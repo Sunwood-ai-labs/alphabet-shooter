@@ -2,7 +2,7 @@
 
 Alphabet Shooterは、Next.jsを使用して開発された、エキサイティングなブラウザゲームです。プレイヤーは「Z」文字を操作し、アルファベットの敵と戦います。
 
-![Alphabet Shooter Game](https://example.com/alphabet-shooter-screenshot.png)
+https://github.com/user-attachments/assets/babaae6d-1591-498a-96aa-c7cf15f60b2f
 
 ## 特徴
 
