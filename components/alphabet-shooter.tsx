@@ -174,7 +174,7 @@ export function AlphabetShooter() {
     }, 1000 / 60)
 
     return () => clearInterval(gameLoop)
-  }, [gameOver, player, enemies, bullets, keys, lastSpecialAttack])
+  }, [gameOver, player, enemies, bullets, keys, lastSpecialAttack, performSpecialAttack])
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -253,8 +253,8 @@ export function AlphabetShooter() {
           </div>
         )}
       </div>
-      <div className="mt-4 text-lg font-['Sevillana'] text-center">
-        <p>Use WASD keys to move 'Z'</p>
+      <div className="mt-4 text-lg font-[&apos;Sevillana&apos;] text-center">
+        <p>Use WASD keys to move &apos;Z&apos;</p>
         <p>Use arrow keys to shoot in 8 directions</p>
         <p>Shoot other letters to defeat them</p>
         <p>Press SPACE for a special attack (5 second cooldown)</p>
