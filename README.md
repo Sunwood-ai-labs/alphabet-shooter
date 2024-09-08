@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alphabet Shooter
 
-## Getting Started
+Alphabet Shooterは、Next.jsを使用して開発された、エキサイティングなブラウザゲームです。プレイヤーは「Z」文字を操作し、アルファベットの敵と戦います。
 
-First, run the development server:
+![Alphabet Shooter Game](https://example.com/alphabet-shooter-screenshot.png)
+
+## 特徴
+
+- 直感的なWASD操作による「Z」文字の移動
+- 8方向への弾丸発射機能
+- ランダムに出現するアルファベットの敵
+- スペースキーによる全体攻撃機能（5秒クールダウン）
+- 美しいグラデーション背景とアニメーション効果
+- リアルタイムスコア表示
+
+## 技術スタック
+
+- [Next.js](https://nextjs.org/) - Reactフレームワーク
+- [React](https://reactjs.org/) - UIライブラリ
+- [TypeScript](https://www.typescriptlang.org/) - 型付きJavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - CSSフレームワーク
+
+## インストール
+
+1. リポジトリをクローンします：
+
+```bash
+git clone https://github.com/yourusername/alphabet-shooter.git
+cd alphabet-shooter
+```
+
+2. 依存関係をインストールします：
+
+```bash
+npm install
+```
+
+## 実行方法
+
+開発サーバーを起動します：
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いてゲームをプレイします。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 操作方法
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **移動**: WASDキー
+- **射撃**: 矢印キー（8方向）
+- **全体攻撃**: スペースキー（5秒クールダウン）
 
-## Learn More
+## 貢献
 
-To learn more about Next.js, take a look at the following resources:
+プルリクエストは大歓迎です。大きな変更の場合は、まずissueを開いて変更内容を議論してください。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ライセンス
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+開発者の皆様、このプロジェクトにご協力いただきありがとうございます！楽しんでコーディングしてください！
